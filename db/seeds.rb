@@ -5,3 +5,8 @@
 #
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
+
+p 'bus in progress'
+Bus.create!(name: "Bus 1", number: "1")
+Bus.create!(name: "Bus 2", number: "2")
+p 'bus created'
